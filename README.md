@@ -1,2 +1,8 @@
-# even-odd-no.
-python
+# Program to check Even or Odd number
+
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print(num, "is an Even number")
+else:
+    print(num, "is an Odd number")
